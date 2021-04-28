@@ -1,0 +1,73 @@
+.navbar{
+    margin: 0;
+    padding: 0px;
+    background-color: #192841;
+    
+}
+.navbar h1{
+    font-size: 30px;
+    font-family: Roboto bold;
+    color: #FF7E36;
+    margin: 10px;
+    float: left;
+}
+.navbar-signin img{
+    float:right;
+    margin: 10px;
+}
+.navbar-join img{
+    float:right;
+    margin: 10px;
+}
+.content p{
+    font-size: 40px;
+    font-family: roboto bold;
+    text-align: justify;
+    margin: 20px;
+}
+.content img{
+    margin: 20px;
+}
+.content button{
+    margin-left: 643px;
+    border-radius: 10px;
+    background-color: #FF7E36;
+}
+.content button:hover{
+    background-color: #192841;
+}
+.content1 img{
+    margin: 20px;
+}
+.content1 p{
+    font-size: 40px;
+    font-family: roboto bold;
+    text-align: justify;
+    margin: 20px;
+}
+.login img{
+    width: 100%;
+    padding: 5px;
+}
+.form{
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.form button{
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: 288px;
+    background-color: #FF7E36;
+}
+.form button:hover{
+    background-color: #192841;
+}
+.form p{
+    margin-left: 265px;
+    margin-top: 20px;
+}
+.button-login{
+    border-radius: 5px;
+    margin-left: 10px;
+}

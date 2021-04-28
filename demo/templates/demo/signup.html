@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--
+This is a starter template page. Use this page to start your new project from
+scratch. This page gets rid of all links and provides the needed markup only.
+-->
+{% load static %}
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sign Up</title>
+
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="{% static 'plugins/fontawesome-free/css/all.min.css' %}">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="{% static 'dist/css/adminlte.min.css' %}">
+  <link rel="stylesheet" href="{% static 'dist/css/style.css' %}">
+</head>
+<body class="hold-transition sidebar-mini">
+<div class="wrapper">
+
+  <!-- Navbar -->
+<nav class="main-header navbar navbar-expand navbar-white navbar-light">
+    <!-- Left navbar links -->
+    <div class="col-md-12">
+        <div class="wraper" style="width: 100%;">
+            <div class="text">
+                <h1 class="logo">Record and Coins</h1>
+            </div>
+            
+     </div>
+     </div>
+</nav>
+
+    <!-- Right navbar links -->
+    
+  <!-- /.navbar -->
+
+  <!-- Main Sidebar Container -->
+
+  <div class="login">
+       
+    <div class="row">
+        <div class="col-sm-6">
+            <img src="{% static 'images\signup.png' %}">
+        </div>
+        <div class="col-sm-6">
+            <form class="form">
+                <label for="name">Name:</label>
+                <input type="name" class="form-control" id="name" placeholder="Enter name" name="name"></br>
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email"></br>
+                <label for="pwd">Password:</label>
+                <input type="pwd" class="form-control" id="pwd" placeholder="Enter password" name="pwd"></br>
+                <label for="cpwd">Confirm Password:</label>
+                <input type="cpwd" class="form-control" id="cpwd" placeholder="Confirm password" name="cpwd">
+            <a class="button" href="#">
+                <button type="button" class="btn " style="color: #fff; font-size: 20px;">SignUp</button>
+            </a> 
+            <p>Already Registered?</p> 
+            <a class="button-login" href="#">
+                <button type="button" class="btn btn-lg" style="color: #fff; font-size: 20px;">Login</button>
+            </a>   
+            </form>
+        </div>
+
+    </div>
+
+</div>
+
+
+   
+
+
+
+  <!-- Main Footer -->
+  <footer class="page-footer blue pt-4" style="background-color: #192841;"></footer>
+</div>
+<!-- ./wrapper -->
+
+<!-- REQUIRED SCRIPTS -->
+
+<!-- jQuery -->
+<script src="{% static 'dist/js/jquery.js' %}"></script>
+<!-- Bootstrap 4 -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="{% static 'dist/js/adminlte.min.js' %}"></script>
+</body>
+</html>
