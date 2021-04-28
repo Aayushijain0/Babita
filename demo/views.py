@@ -7,7 +7,7 @@ def index(request):
     return render(request, 'demo/index.html')
 
 def signup(request):
-    return render(request, 'demo/signup.html')
+    return render(request, 'demo/basesignup.html')
 
 def dashboardMainPage(request):
     return render(request, 'demo/dashboardMainPage.html')

@@ -12396,7 +12396,7 @@ body:not(.layout-fixed) .main-sidebar .sidebar {
   float: none;
   left: 0;
   position: fixed;
-  top: 0;
+  
 }
 
 .layout-fixed .control-sidebar {
